@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>My personal site</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<style>
+		.mega-menu{width:750px;overflow:hidden;padding:10px}
+		.mega-menu a{text-decoration:none;}
+		.dropdown-menu{top:80%;}
+		.dropdown:hover>.dropdown-menu{display:block;}
+		.mega-menu .menu-links > li > a {
+		text-transform: uppercase;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 20px;
+		padding: 10px;
+		}
+		.btn{border-radius: 2rem;font-weight: 500;}
+		.btn-primary {
+		color: #fff;
+		background-color: #633838;
+		border-color: #a9ff00;
+		}
+		.btn-primary:hover {
+		color: #2a2730;
+		background-color:#15ec30;
+		border-color: #9c1cec;
+		}
+		.carousel-indicators i{color:white;}
+		.carousel-indicators .active{color:red;}
+		h1 {
+		padding: 0;
+		color: #ffffff;
+			font-size: 70px;
+		font-style: normal;
+		line-height: 84px;
+		margin-bottom: 30px;
+		letter-spacing: 1px;
+		display: inline-block;
+		-webkit-animation-delay: 0.7s;
+		animation-delay: 0.7s;
+		}
+		.navbar {background: #323232; position: relative;}
+		.navbar {background: rgba(16, 16, 16, 0.4);position: absolute;width:100%;z-index:999;}
+		.greatServicesSec {
+		width: 100%;
+		line-height: 60px;
+		padding-right: 0px;
+		overflow: hidden;
+		margin-top: 60px;
+		}
+		.greatServicesSec>div>span {
+		display: inline-block;
+		height: 1px;
+		background-color: #0996D3;
+		width: 80%;
+		vertical-align: middle;
+		margin-top: -27px;
+		}
+		.text-center {
+		position: relative;left:430px;top: -65px;
+		}
+		.greatServicesSec>div>span {
+		display: inline-block;
+		height: 1px;
+		background-color: #0996D3;
+		width: 80%;
+		vertical-align: middle;
+		margin-top: -27px;
+		}
+		.leftLine {
+		position: relative;left:250px;top:-6px;
+		}
+		.col-lg-4 {
+		width: 33.33333333%;
+		}
+		h3 {
+		font-size: 28px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 32px;
+		}
+		.rightLine {
+		position: relative;left:790px;top: -104px;
+		}
+		body {
+		background-image: url(theme.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		}
+		#ictab{
+		width: 100%;
+		background-color: #EEEEEE;
+		height: 124px;
+		}
+		</style>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+		<link rel="stylesheet" href="animate.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark" style="background: rgba(0, 0, 0, 0.61);height:100px;">
+			<!--Brand-->
+			<div class="container">
+				<a class="navbar-brand" href="#"><img src="Vlogo.png" class="rounded-circle img-fluid" style="height: 50px;width: 50px;">VIKAS</a>
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse d-flex justify-content-end" id="collapsibleNavbar">
+					<ul class="nav navbar-nav">
+						<!--Dropdown-->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown">
+								Industries
+							</a>
+							<div class="dropdown-menu mega-menu">
+								<div class="row">
+									<div class="col-md-3">
+										<img src="web.jpeg" alt="image can't" class="img-fluid">
+										<h4>Web development</h4>
+										<p>Every Web Developer must have a basic understanding of HTML, CSS, and JavaScript.</p>
+									</div>
+									<div class="col-md-3">
+										<p><strong class="sub-menu-heading">courses</strong></p>
+										<p><i class="fab fa-java"></i><a href="#">Java</a></p>
+										<p><i class="fab fa-css3-alt"></i><a href="#">CSS</a></p>
+										<p><i class="fab fa-html5"></i><a href="#">Html</a></p>
+										<p><i class="fab fa-python"></i><a href="#">Python</a></p>
+									</div>
+									<div class="col-md-3">
+										<p><strong class="sub-menu-heading">courses</strong></p>
+										<p><i class="fab fa-bootstrap"></i><a href="#">Bootstrap</a></p>
+										<p><i class="fab fa-js-square"></i><a href="#">Java_script</a></p>
+										<p><i class="fab fa-node"></i><a href="#">Node.js</a></p>
+										<p><i class="fab fa-angular"></i><a href="#">Angular.js</a></p>
+									</div>
+									<div class="col-md-3">
+										<p><strong class="sub-menu-heading">courses</strong></p>
+										<p><i class="fab fa-php"></i><a href="#">php</a></p>
+										<p><i class="fab fa-react"></i><a href="#">React</a></p>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<ul class="navbar-nav">
+							<!--Dropdown-->
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown">
+									Services
+								</a>
+								<div class="dropdown-menu mega-menu">
+								<div class="row">
+									<div class="col-md-3">
+										<img src="web.jpeg" alt="image can't" class="img-fluid">
+										<h4>Web development</h4>
+										<p>Every Web Developer must have a basic understanding of HTML, CSS, and JavaScript.</p>
+									</div>
+									<div class="col-md-3">
+										<p><strong class="sub-menu-heading">courses</strong></p>
+										<p><i class="fab fa-java"></i><a href="#">Java</a></p>
+										<p><i class="fab fa-css3-alt"></i><a href="#">CSS</a></p>
+										<p><i class="fab fa-html5"></i><a href="#">Html</a></p>
+										<p><i class="fab fa-python"></i><a href="#">Python</a></p>
+									</div>
+									<div class="col-md-3">
+										<p><strong class="sub-menu-heading">courses</strong></p>
+										<p><i class="fab fa-bootstrap"></i><a href="#">Bootstrap</a></p>
+										<p><i class="fab fa-js-square"></i><a href="#">Java_script</a></p>
+										<p><i class="fab fa-node"></i><a href="#">Node.js</a></p>
+										<p><i class="fab fa-angular"></i><a href="#">Angular.js</a></p>
+									</div>
+									<div class="col-md-3">
+										<p><strong class="sub-menu-heading">courses</strong></p>
+										<p><i class="fab fa-php"></i><a href="#">php</a></p>
+										<p><i class="fab fa-react"></i><a href="#">React</a></p>
+									</div>
+								</div>
+							</div>
+							</li>
+						</ul>
+						<ul class="navbar-nav">
+							<!--Dropdown-->
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown">
+									Solutions
+								</a>
+								<div class="dropdown-menu mega-menu">
+								<div class="row">
+									<div class="col-md-3">
+										<img src="web.jpeg" alt="image can't" class="img-fluid">
+										<h4>Web development</h4>
+										<p>Every Web Developer must have a basic understanding of HTML, CSS, and JavaScript.</p>
+									</div>
+									<div class="col-md-3">
+										<p><strong class="sub-menu-heading">courses</strong></p>
+										<p><i class="fab fa-java"></i><a href="#">Java</a></p>
+										<p><i class="fab fa-css3-alt"></i><a href="#">CSS</a></p>
+										<p><i class="fab fa-html5"></i><a href="#">Html</a></p>
+										<p><i class="fab fa-python"></i><a href="#">Python</a></p>
+									</div>
+									<div class="col-md-3">
+										<p><strong class="sub-menu-heading">courses</strong></p>
+										<p><i class="fab fa-bootstrap"></i><a href="#">Bootstrap</a></p>
+										<p><i class="fab fa-js-square"></i><a href="#">Java_script</a></p>
+										<p><i class="fab fa-node"></i><a href="#">Node.js</a></p>
+										<p><i class="fab fa-angular"></i><a href="#">Angular.js</a></p>
+									</div>
+									<div class="col-md-3">
+										<p><strong class="sub-menu-heading">courses</strong></p>
+										<p><i class="fab fa-php"></i><a href="#">php</a></p>
+										<p><i class="fab fa-react"></i><a href="#">React</a></p>
+									</div>
+								</div>
+							</div>
+							</li>
+						</ul>
+						<ul class="navbar-nav">
+							<!--Dropdown-->
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown">
+									Technologies
+								</a>
+								<div class="dropdown-menu mega-menu">
+								<div class="row">
+									<div class="col-md-3">
+										<img src="web.jpeg" alt="image can't" class="img-fluid">
+										<h4>Web development</h4>
+										<p>Every Web Developer must have a basic understanding of HTML, CSS, and JavaScript.</p>
+									</div>
+									<div class="col-md-3">
+										<p><strong class="sub-menu-heading">courses</strong></p>
+										<p><i class="fab fa-java"></i><a href="#">Java</a></p>
+										<p><i class="fab fa-css3-alt"></i><a href="#">CSS</a></p>
+										<p><i class="fab fa-html5"></i><a href="#">Html</a></p>
+										<p><i class="fab fa-python"></i><a href="#">Python</a></p>
+									</div>
+									<div class="col-md-3">
+										<p><strong class="sub-menu-heading">courses</strong></p>
+										<p><i class="fab fa-bootstrap"></i><a href="#">Bootstrap</a></p>
+										<p><i class="fab fa-js-square"></i><a href="#">Java_script</a></p>
+										<p><i class="fab fa-node"></i><a href="#">Node.js</a></p>
+										<p><i class="fab fa-angular"></i><a href="#">Angular.js</a></p>
+									</div>
+									<div class="col-md-3">
+										<p><strong class="sub-menu-heading">courses</strong></p>
+										<p><i class="fab fa-php"></i><a href="#">php</a></p>
+										<p><i class="fab fa-react"></i><a href="#">React</a></p>
+									</div>
+								</div>
+							</div>
+							</li>
+						</ul>
+						<ul class="navbar-nav">
+							<!--Dropdown-->
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown">
+									Company
+								</a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="#">Link 1</a>
+									<a class="dropdown-item" href="#">Link 2</a>
+									<a class="dropdown-item" href="#">Link 3</a>
+									<a class="dropdown-item" href="#">Link 4</a>
+									<a class="dropdown-item" href="#">Link 5</a>
+									<a class="dropdown-item" href="#">Link 6</a>
+									<a class="dropdown-item" href="#">Link 7</a>
+									<a class="dropdown-item" href="#">Link 8</a>
+								</div>
+							</li>
+						</ul>
+						<button class="btn btn-primary navbar-btn">Contact Us</button>
+					</div>
+				</nav>
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<i class="fa fa-star active" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+						<i class="fa fa-star" aria-hidden="true"></i>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-block w-100" src="slide4.jpg" alt="First slide" style="height:100%">
+							<div class="carousel-caption d-none d-lg-block">
+								<h1 class="animated flipInX">Maintenance and support</h1>
+								<p class="animated lightSpeedIn">Providing all kind of support for your project</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="slide3.jpg" alt="Second slide" style="height:100%">
+							<div class="carousel-caption d-none d-md-block">
+								<h1 class="animated slideInUp">Tranforming business ideas</h1>
+								<button class="btn btn-primary animated zoomIn" style="animated-delay:2s">Hello world</button>
+								<p class="animated slideInRight">We help to convert your thoughts into reality</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="slide2.jpg" alt="Third slide" style="height:100%">
+							<div class="carousel-caption d-none d-md-block">
+								<h1 class="animated zoomIn" style="animated-delay:1s">Enterprise mobile apps</h1>
+								<p class="animated zoomIn" style="animated-delay:2s">Increase your customer reach with a customised mobile app</p>
+							</div>
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" area-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" area-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+				<div class="container mt-3">
+					<div class="row">
+						<div class="col-xs-2">
+							<div class="card" style="width:400px;margin-left: 360px">
+								<img class="card-img-top img-responsive" src="avatar1.png" alt="Card image" width="100%">
+								<div class="card-body">
+									<h3 class="card-title">Instructor</h3>
+									<p class="card-text">Founder and CEO of Aptech learning private limited.</p>
+									<a class="" href="#"><i class="fab fa-twitter fa-2x text-primary" style="text-decoration:none;"></i></a>
+									&nbsp;&nbsp;&nbsp;&nbsp;<a class="" href="#"><i class="fab fa-facebook-square fa-2x text-primary" style="text-decoration:none;"></i></a>
+									&nbsp;&nbsp;&nbsp;&nbsp;<a class="" href="#"><i class="fab fa-google-plus-square fa-2x text-primary" style="text-decoration:none;"></i></a>
+									&nbsp;&nbsp;&nbsp;&nbsp;<a class="" href="#"><i class="fab fa-youtube fa-2x text-danger" style="text-decoration:none;"></i></a>
+									&nbsp;&nbsp;&nbsp;&nbsp;<a class="" href="#"><i class="fab fa-whatsapp fa-2x text-success" style="text-decoration:none;"></i></a>
+									&nbsp;&nbsp;&nbsp;&nbsp;<a class="" href="#"><i class="fab fa-instagram fa-2x text-danger" style="text-decoration:none;"></i></a>
+									&nbsp;&nbsp;&nbsp;&nbsp;<a class="" href="#"><i class="fab fa-skype fa-2x text-primary" style="text-decoration:none;"></i></a><br><br>
+									<a href="#" class="btn btn-success ml-5" style="width: 260px">See Profile</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="greatServicesSec">
+					<div class="col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<span class="leftLine"></span>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<h3 class="text-center">What We Do</h3>
+					</div>
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<span class="rightLine"></span>
+					</div>
+				</div>
+				<div class="container mt-3">
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="card" style="width:400px;margin-left: -50px">
+								<i class="fab fa-java" style="font-size:100px;color:#e88d3e;padding-left:140px;"></i>
+								<div class="card-body">
+									<h3 class="card-title">JAVA</h3>
+									<p class="card-text">Java is a popular programming language, created in 1995.
+									It is owned by Oracle, and more than 3 billion devices run Java.</p>
+									<a href="#" class="btn btn-danger ml-5" style="width: 260px">Description</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4" style="height:400px">
+							<div class="card" style="width:400px">
+								<i class="fab fa-html5" style="font-size:100px;color:red;padding-left:140px;"></i>
+								<div class="card-body">
+									<h3 class="card-title">HTML</h3>
+									<p class="card-text">Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser.</p>
+									<a href="#myModal" class="btn btn-danger ml-5" data-toggle="modal" data-target="#myModal" style="width:260px">Description</a>
+									<div class="modal" id="myModal">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h4 class="modal-title">Modal Heading</h4>
+													<button type="button" class="close" data-dismiss="modal">&times;</button>
+												</div>
+												<div class="modal-body">
+													Aptech is the indias no. 1 imstitute
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="card ml-5" style="width:400px">
+								<i class="fab fa-python" style="font-size:100px;color:green;padding-left:140px;"></i>
+								<div class="card-body">
+									<h3 class="card-title">PYTHON</h3>
+									<p class="card-text">Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991.</p>
+									<a href="#" class="btn btn-danger ml-5" style="width: 260px">Description</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="card" style="width:400px;margin-left: -50px">
+								<i class="fab fa-php" style="font-size:100px;color:#b9c318;padding-left:140px;"></i>
+								<div class="card-body">
+									<h3 class="card-title">PHP</h3>
+									<p class="card-text">PHP: Hypertext Preprocessor (or simply PHP) is a general-purpose programming language originally designed for web development.</p>
+									<a href="#" class="btn btn-danger ml-5" style="width: 260px">Description</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="card" style="width:400px">
+								<i class="fab fa-node" style="font-size:100px;color:blue;padding-left:140px;"></i>
+								<div class="card-body">
+									<h3 class="card-title">NODE.js</h3>
+									<p class="card-text">Node.js is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser.</p>
+									<a href="#" class="btn btn-danger ml-5" style="width: 260px">Description</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="card ml-5" style="width:400px">
+								<i class="fab fa-angular" style="font-size:100px;color:#9e1173;padding-left:140px;"></i>
+								<div class="card-body">
+									<h3 class="card-title">ANGULAR.js</h3>
+									<p class="card-text">AngularJS is a JavaScript-based open-source front-end web framework mainly maintained by Google and by a community.</p>
+									<a href="#" class="btn btn-danger ml-5" style="width: 260px">Description</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<section style="background: url(serbck.jpg);background-size: cover;  background-repeat: no-repeat;">
+					<div style="margin-top:20px;">
+						<div id="ictab" class="btn-group btn-group-lg">
+							<button class="btn btn-outline-success active"><i class="fas fa-tools" style="font-size:50px"></i><br>Services</button>
+							<button class="btn btn-outline-success"><i class="fas fa-puzzle-piece"  style="font-size:50px"></i><br>Solutions</button>
+							<button class="btn btn-outline-success"><i class="fas fa-fighter-jet" style="font-size:50px"></i><br>Technologies</button>
+							<button class="btn btn-outline-success"><i class="fas fa-globe-europe" style="font-size:50px"></i><br>Offshore</button>
+						</div>
+						<h2><span style="position: relative;left: 415px">Result-Driven Software Services</span></h2>
+						<div>
+							<h5><span style="position: relative;left: 190px">Our services have been designed to bring the results you expect exactly when and where you need them</span></h5>
+						</div>
+						<div class="row" style="margin-right: 0px">
+							<div class="col-md-6">
+								<h5>Agile and Responsive</h5>
+								<p>Our software outsourcing services range from technology consulting and business analysis to QA, application maintenance and solution integration. Our integrated service lines have been shaped by nearly a decade of delivering value to our customers, and are built on a deep understanding of business needs and market trends, along with the technology expertise and software industry best practices.</p>
+								<ul class="">
+									<li><p><span ></span>&nbsp;&nbsp;Software Prototyping</p></li>
+									<li><p><span ></span>&nbsp;&nbsp;Software Product Development</p></li>
+									<li><p><span ></span>&nbsp;&nbsp;Enterprise Application Integration </p></li>
+									<li><p><span ></span>&nbsp;&nbsp;Virtualization Management </p></li>
+									<li><p><span ></span>&nbsp;&nbsp;Dedicated Development Centers</p></li>
+								</ul>
+							</div>
+							<div class="col-md-6">
+								<h5>Mature and Flexible </h5>
+								<p>We are fully equipped to deliver first-class services that result in improved business efficiency, increased ROI cost-effectiveness, risk mitigation for our clients, not to speak of transparency and predictability that are guaranteed by default. We rely on our time-proven processes, tools and techniques to bring the highest level of quality to our growing range of services. </p>
+								<ul class="">
+									<li><p><span class=""></span>&nbsp;&nbsp;Technology Consulting </p></li>
+									<li><p><span class=""></span>&nbsp;&nbsp;Custom Software Development </p></li>
+									<li><p><span class=""></span>&nbsp;&nbsp;Maintenance and Support </p></li>
+									<li><p><span class=""></span>&nbsp;&nbsp;Application Security </p></li>
+									<li><p><span class=""></span>&nbsp;&nbsp;Software QA and Testing </p></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section style="background-color: #EEEEEE;">
+					<div class="container">
+						<div>
+							<h3><span style="position: relative;left: 445px;top: 5px;font-size: 40px">Our Clients</span></h3>
+						</div>
+						<div class="col-md-12">
+							<hr >
+							<marquee>
+							<div class="row">
+								<div class="col-md-3">
+									<img src="branderslogo.png" alt="Branders" class="graylogo">
+								</div>
+								
+								<div class="col-md-1">
+									<img src="logogroupl.png" alt="Groupl" class="graylogo">
+								</div>
+								<div class="col-md-3">
+									<img src="logo-she.png" alt="Shedoctr" class="graylogo pl-60">
+								</div>
+								<div class="col-md-2">
+									<img src="logoipeec.png" alt="IPEEC" class="graylogo">
+								</div>
+								<div class="col-md-1">
+									<img src="fairdairy.png" alt="fairdairy" class="graylogo">
+								</div>
+								<div class="col-md-2">
+									<img src="logo_winetalk.png" alt="Winetalk" class="graylogo" style="margin-left:-80px">
+								</div>
+							</div>
+							</marquee>
+						</div>
+					</div>
+				</section>
+				<section style="background-color: #18181A;">
+					<div class="what-we-do-bg">
+						<div class="my-container">
+							<div class="headLine">
+								<div class="">
+									<h3><span style="color: white;padding-left:570px">Our Process</span></h3>
+								</div>
+								<h5><span style="color: white;padding-left:350px">An Agile & Hybrid Development Process - Ensuring Quality work</span></h5>
+							</div>
+							<div><img src="process.jpg" style="width: 100%"></div>
+						</div>
+					</div>
+				</section>
+				<section class="bg-primary" style="padding: 64px 30px">
+					<div class="row">
+						<div class="col-md-6" style="color:white;">
+							<h3>Contact information</h3>
+							<ul>
+								<li><strong>Monday-Saturday:</strong>10:00AM to 7:00PM</li>
+								<li><strong>Address:</strong>RZ-54 A Block Narsingh Graden Near Khyala</li>
+								<li><strong>Phone:</strong>(91)8750660769</li>
+								<li><strong>Fax:</strong>(123)984-1234</li>
+								<li><strong>Email:</strong>shammy@gmail.com</li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="email" style="color:white">Email address:</label>
+								<input type="email" class="form-control col-md-12" id="email">
+							</div>
+							<div class="form-group">
+								<label for="pwd" style="color:white">Password:</label>
+								<input type="password" class="form-control col-md-12" id="pwd">
+							</div>
+							<div class="form-group form-check">
+								<label class="form-check-label" style="color:white">
+									<input class="form-check-input" type="checkbox"> Remember me
+								</label>
+							</div>
+							<div class="form-group">
+								<textarea  class="form-control col-md-12" id="message" name="message" placeholder="Enter Your Message" required style=" color: white;"></textarea>
+							</div>
+							<button type="submit" class="btn btn-success" style="width:300px">Submit</button>
+						</div>
+					</div>
+				</section>
+			</body>
+		</html>
